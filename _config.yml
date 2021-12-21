@@ -3,14 +3,14 @@
 # ===========================================
 
 # 是否允许用户复制网站上的内容，仅仅是君子协定
-selectable: true
+selectable: false
 
 # Dark mode
 # Available values: true, false, auto
 dark_mode: auto
 
 # Site creation time
-since: 2018
+since: 2021
 
 # Set feed link (false | default | your feed link)
 # false: disable
@@ -51,7 +51,7 @@ toc:
 tagTitle: Tags
 
 # A sentense to show
-signature: 热爱生活，然后发现，处处都是阳光
+signature: 多米诺好困啊
 
 theme:
   color: Default

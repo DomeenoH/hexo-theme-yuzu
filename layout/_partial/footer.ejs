@@ -7,17 +7,21 @@
       </a>
     </div>
   <% } %>
+  <!--&copy;--><a href="https://creativecommons.org/publicdomain/zero/1.0/deed.zh">CC0</a> · 
   <%- config.since_year %>
   <% let current = date(Date.now(), "YYYY") %>
   <% if (current != config.since_year ) { %>
     <span class="timeDivide">-</span>
     <%- current %>
   <% } %>
-  <%- config.author %>.&nbsp;
-  Power by
+  <a href="https://qexo.dominoh.com/" target="_blank"><%- config.author %></a>&nbsp;
+  All rights waived.<br>
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
+  </script>
+  <span id="busuanzi_container_site_pv">本站已被访问<span id="busuanzi_value_site_pv"></span>次</span>
+<!-- Power by
   <a href="https://hexo.io/" target="_blank" rel="external nofollow">Hexo</a>
   and
-  <a href="https://github.com/Cerallin/hexo-theme-yuzu" target="_blank" rel="external nofollow">
-    Theme Yuzu
-  </a>
+  <a class="orangelink" href="https://github.com/" target="_blank" rel="">
+    <%- config.theme %></a> -->
 </span>
